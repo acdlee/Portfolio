@@ -1,8 +1,78 @@
 <%- include("partials/header.ejs") %>
 
 <section>
-    About page.
+    <h2>About Me</h2>
+    <p>
+        <span class="span-paragraph-start">Growing </span> up I always had an interest in technology.
+        My first program was in notepad, rendering a couple of header and paragraph
+        elements in the browser, with code to calculate a factorial. 
+    </p>
+    <br>
+    <p>
+        <span class="span-paragraph-start">After</span> spending a few years at the University of Connecticut playing 
+        Divison I Football and studying Mathematics, I applied to the University of Maryland and officially began my path towards
+        a career in Computer Science.
+    </p>
+    <br>
+    <p>
+        <span class="span-paragraph-start">During</span> college, I completed two internships at Atlantic Design Group (ADG).
+        The first internship focused on modernizing website code (semantic markup),
+        along with fixing any resulting broken CSS/JS. The second on building
+        a Python payroll application for processing timecards, including the 
+        frontend GUI, backend processing and validation.
+        <br>
+        <span class="span-text">
+            HTML5, CSS3, JavaScript, jQuery, Python, PyQt5.
+        </span>
+    </p>
+    <br>
+    <p>
+        <span class="span-paragraph-start">After</span> graduating, I began at Naval Research Laboratory
+        in the Remote Sensing Divison working on a Reinforcement Learning project,
+         followed by a Computer Vision project.
+        <br>
+        <span class="span-text">
+            Docker, Kubernetes, Git, GitLab, Hardware APIs, ROS, Python, C, C++,
+            documentation and many research papers.
+        </span>
+    </p>
 </section>
+<section>
+    <h2>Technologies</h2>
+    <article id="tabs">
+        <ul>
+            <li><a href="#fragment-1">Languages</a></li>
+            <li><a href="#fragment-2">Technologies</a></li>
+            <li><a href="#fragment-3">Databases</a></li>
+            <li><a href="#fragment-4">Skills</a></li>
+            <li><a href="#fragment-5">Web Technologies</a></li>
+        </ul>
+        <hr id="hr-tech">
+        <div id="fragment-1">
+            <p>JavaScript; Python; Java; HTML5; CSS3</p>
+        </div>
+        <div id="fragment-2">
+            <p>Git; Docker; Kubernetes; Linux; macOS; Windows; VSCode; IntelliJ</p>
+        </div>
+        <div id="fragment-3">
+            <p>MySQL (MariaDB); PostreSQL; MongoDB</p>
+        </div>
+        <div id="fragment-4">
+            <p>REST APIs; OOP; MVC; ACID; ORM; Normalization</p>
+        </div>
+        <div id="fragment-5">
+            <p>XAMPP; Sping Boot; Express; React; EJS; jQuery; Adobe XD and PhotoShop</p>
+        </div>
+    </article>
+</section>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+<script>
+    $(document).ready( () =>
+        $("#tabs").tabs()
+        // console.log("good")
+    )
+</script>
 
 
 <%- include("partials/footer.ejs") %>

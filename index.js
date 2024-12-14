@@ -1,8 +1,10 @@
 import express from "express";
 
+// Create the app and specify the port
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// Middleware for static files
 app.use(express.static("public"));
 
 app.get('/', (req, res) => {

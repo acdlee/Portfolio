@@ -6,12 +6,23 @@
     font-weight: bold;
 }
 
+.span-paragraph-start {
+    border-left: 2.5px solid var(--purple);
+    font-size: 1.25em;
+    padding-left: 1em;
+}
+
+.ul-list-header {
+    font-size: 1.5em;
+    color: var(--maroon);
+    font-weight: bold;
+}
 
 /* MAIN */
 main section {
     max-width: 40em;
     margin: 0 auto;
-    padding: 1em 1em;
+    padding: 1.5em 1em;
 }
 
 main section h2 {
@@ -56,3 +67,37 @@ main section .project-text-container h3 {
     color: var(--charcoal);
 }
 
+/* TECHNOLOGIES - ABOUT PAGE */
+article#tabs {
+    padding: .5em .5em 1em;
+}
+
+article#tabs div {
+    height: 100px;
+    color: var(--maroon);
+    font-weight: bold;
+}
+
+article#tabs ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+article#tabs ul li a {
+    font-size: 1.25em;
+    color: black;
+    text-decoration: none;
+    border-top: 2px solid transparent;
+    transition: all 0.3s ease-in;
+}
+
+article#tabs ul li a:hover {
+    border-top: 2px solid var(--charcoal);
+    color: var(--purple);
+}
+
+hr#hr-tech {
+    color: var(--charcoal);
+    margin: .5em 0 1em;
+}
