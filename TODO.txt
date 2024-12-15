@@ -1,2 +1,15 @@
 inspo:
 https://marijnhaverbeke.nl/
+
+
+TODOs:
+1. Projects page
+2. Individual projects page (utilize ejs)
+3. Chalkboard endpoint
+    -> Recieve the request in node
+    -> Have the submit button that exports the canvas image and uses
+        an image classifier to guess what the image is.
+        Do this in index.js so you can utilize Node ML packages.
+4. Resume endpoint
+    -> Just starts the resume download or displays a page to view the resume.
+        It's probably better to render a page and have a resume download button
