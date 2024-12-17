@@ -1,9 +1,25 @@
 :root {
-    --white: #f9f2ff;
+    --white: #fffeff;
     --purple: #8a2be2;
     --darkpurple: #5D3FD3;
     --charcoal: #4a4a4a;
     --maroon: #550000;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p,
+span {
+    font-family: 'Prompt', serif;
+}
+
+a,
+.span-text {
+    font-family: "Roboto Mono", serif;
 }
 
 * {
@@ -35,6 +51,7 @@ header h1 {
 header h1 a {
     text-decoration: none;
     color: inherit;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 header .header-container {
@@ -43,7 +60,7 @@ header .header-container {
 }
 
 header span {
-    font-size: 1.25em;
+    font-size: 1.075em;
 }
 
 header nav ul {
@@ -58,7 +75,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    font-size: 1.25em;
+    font-size: 1.05em;
     color: black;
     text-decoration: none;
     border-bottom: 2px solid transparent;
