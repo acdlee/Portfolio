@@ -27,6 +27,11 @@ app.get('/chalkboard', (req, res) => {
     res.render('chalkboard.ejs');
 })
 
+app.get('/resume', (req, res) => {
+    const file = `${import.meta.dirname}/public/uploads/christopher_lee_resume.pdf`;
+    res.download(file);
+})
+
 app.listen(PORT, () => {
     console.log(`Listening on port ${PORT}`);
 });
