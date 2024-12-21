@@ -23,6 +23,10 @@ app.get('project-page', (req, res) => {
     res.render('project-page.ejs');
 })
 
+app.get('/chalkboard', (req, res) => {
+    res.render('chalkboard.ejs');
+})
+
 app.listen(PORT, () => {
     console.log(`Listening on port ${PORT}`);
 });
