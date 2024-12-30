@@ -1,9 +1,14 @@
 <%- include("partials/header.ejs") %>
 
 <section>
-    <h2>Project Page</h2>
     <% if (locals.project) { %>
-        <p><%= project %></p>
+        <h2><%= project %></h2>
+        
+
+
+
+    <% } else { %>
+        <h2>OH! No valid project was specified.</h2>
     <% } %>
 </section>
 
