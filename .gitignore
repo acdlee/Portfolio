@@ -133,3 +133,7 @@ dist
 npm-debug.log
 .DS_Store
 /*.env
+
+# Misc files
+TODO.txt
+CHEATSHEET.txt
