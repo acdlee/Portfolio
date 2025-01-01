@@ -3,12 +3,6 @@
 <section>
     <h2>About Me</h2>
     <p>
-        <span class="span-paragraph-start">Growing </span> up I always had an interest in technology.
-        My first program was in notepad, rendering a couple of header and paragraph
-        elements in the browser, with code to calculate a factorial. 
-    </p>
-    <br>
-    <p>
         <span class="span-paragraph-start">After</span> spending a few years at the University of Connecticut playing 
         Divison I Football and studying Mathematics, I applied to the University of Maryland and officially began my path towards
         a career in Computer Science.
@@ -16,7 +10,7 @@
     <br>
     <p>
         <span class="span-paragraph-start">During</span> college, I completed two internships at Atlantic Design Group (ADG).
-        The first internship focused on modernizing website code (semantic markup),
+        The first internship focused on modernizing website code (semantic markup, responsive design principles, accessability),
         along with fixing any resulting broken CSS/JS. The second on building
         a Python payroll application for processing timecards, including the 
         frontend GUI, backend processing and validation.
@@ -38,14 +32,14 @@
     </p>
     <br>
     <p>
-        <span class="span-paragraph-start">If</span> you've made it this far,
-        checkout the <span class="span-text">/chalkboard</span> and 
+        <span class="span-paragraph-start">Checkout</span>
+        the <span class="span-text">/chalkboard</span> and 
         <span class="span-text">/resume</span> routes.
     </p>
 </section>
 <section>
     <h2>Technologies</h2>
-    <article id="tabs">
+    <article class="tabs">
         <ul>
             <li><a href="#fragment-1">Languages;</a></li>
             <li><a href="#fragment-2">Technologies;</a></li>
@@ -71,11 +65,41 @@
         </div>
     </article>
 </section>
+<section>
+    <h2>More Information</h2>
+    <article class="tabs">
+        <ul>
+            <li><a href="#fragment-1">Experience;</a></li>
+            <li><a href="#fragment-2">Degrees and Certifications;</a></li>
+            <li><a href="#fragment-3">Books</a></li>
+        </ul>
+        <hr id="hr-tech">
+        <div id="fragment-1">
+            <p>
+                Software Engineer Intern, Atlantic Design Group (Summer 2019, 2020);<br>
+                Computer Scientist, Naval Research Laboratory (Nov 2021 - Dec 2023)
+            </p>
+        </div>
+        <div id="fragment-2">
+            <p>
+                BSc Computer Science/Minor Statistics, Unniversity of Maryland (Jan 2018 - Aug 2021);<br>
+                Web Development and Design Certificate, Montogomery Community College (Jan 2024 - Present)
+            </p>
+        </div>
+        <div id="fragment-3">
+            <p>
+                The Road to React (2024 ed.); murach's JavaScript and jQuery (4th ed.);
+                murach's PHP and MySQL (4th ed.); Python Crash Course (2nd & 3rd ed.);
+                Learning Web Design (5th ed.); CTCI (6th ed.); Hands-On ML (2nd ed.)
+            </p>
+        </div>
+    </article>
+</section>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
 <script>
     $(document).ready( () =>
-        $("#tabs").tabs()
+        $(".tabs").tabs()
     )
 </script>
 
