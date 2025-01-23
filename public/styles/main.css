@@ -81,6 +81,7 @@ article.tabs ul {
     list-style-type: none;
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 article.tabs ul li a {
