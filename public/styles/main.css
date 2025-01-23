@@ -18,6 +18,13 @@
     font-weight: bold;
 }
 
+.isDisabled {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
 /* MAIN */
 main section {
     max-width: 40em;
